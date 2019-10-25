@@ -1,0 +1,4 @@
+<launch>
+    <param name="file_name" value="$(find yaml_to_cam_info)/camera_info/rgb_Astra_Orbbec.yaml" />
+    <node pkg="yaml_to_cam_info" type="yaml_to_cam_info.py" name="camera_info_publisher" output="screen"/>
+</launch>
